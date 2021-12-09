@@ -1,0 +1,12 @@
+spring:
+datasource:
+url: Server=tcp:tradebull.database.windows.net,1433;database=tradbeulldb;Persist Security Info=False;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+username: tradebull
+password: password@123
+jpa:
+show-sql: true
+hibernate:
+ddl-auto: update
+dialect : org.hibernate.dialect.SQLServer2012Dialect
+
+server.port: 9191
